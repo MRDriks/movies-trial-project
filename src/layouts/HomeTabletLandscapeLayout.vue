@@ -17,6 +17,7 @@
     <div class="movies-details">
       <BackgroundImage
         :source="movie.bg_picture"
+        transitionName="fade"
         class="background-img"
       />
 
@@ -98,6 +99,14 @@ export default {
   methods: {
     clickHandler(movieId) {
       this.selectedMovie = movieId
+      this.scrollToTop()
+    },
+
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
     }
   }
 }

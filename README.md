@@ -1,5 +1,9 @@
 # movies-trial-project
 
+## Deployed App
+
+[https://fantastic-cheesecake-02e4eb.netlify.app](https://fantastic-cheesecake-02e4eb.netlify.app)
+
 ## Project Setup
 
 ```sh
@@ -10,16 +14,4 @@ npm install
 
 ```sh
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```

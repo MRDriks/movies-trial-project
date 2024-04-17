@@ -1,5 +1,8 @@
 <template>
-  <Transition :name="transitionName">
+  <Transition
+    :name="transitionName"
+    mode="out-in"
+  >
     <div
       class="bg-image"
       :style="{ 'background-image': `url(${source})` }"
