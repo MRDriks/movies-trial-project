@@ -8,3 +8,9 @@ button {
   border: none;
   text-decoration: none;
 }
+
+body {
+  color: #fff;
+  font-family: 'Rubik';
+  font-weight: 400;
+}

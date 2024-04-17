@@ -1,5 +1,5 @@
 import { axios } from '../axios'
 
-export const getMoviesList = () => {
-  return axios.get('/movies')
+export const getMoviesList = (queryParams = '') => {
+  return axios.get(`/movies/${queryParams}`)
 }
